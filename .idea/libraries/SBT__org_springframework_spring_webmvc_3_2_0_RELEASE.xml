@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.springframework:spring-webmvc:3.2.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-webmvc/jars/spring-webmvc-3.2.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-webmvc/docs/spring-webmvc-3.2.0.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-webmvc/srcs/spring-webmvc-3.2.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

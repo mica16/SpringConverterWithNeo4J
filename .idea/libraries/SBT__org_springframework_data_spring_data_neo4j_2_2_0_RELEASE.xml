@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.springframework.data:spring-data-neo4j:2.2.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.data/spring-data-neo4j/jars/spring-data-neo4j-2.2.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.data/spring-data-neo4j/docs/spring-data-neo4j-2.2.0.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.data/spring-data-neo4j/srcs/spring-data-neo4j-2.2.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

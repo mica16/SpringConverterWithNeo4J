@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="validation-api">
+    <CLASSES>
+      <root url="jar:///Developpements/play-2.1.0/repository/local/javax.validation/validation-api/1.0.0.GA/jars/validation-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="SBT: org.neo4j:neo4j-kernel:1.9.M04:test">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.neo4j/neo4j-kernel/jars/neo4j-kernel-1.9.M04.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.neo4j/neo4j-kernel/jars/neo4j-kernel-1.9.M04-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.neo4j/neo4j-kernel/docs/neo4j-kernel-1.9.M04-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.neo4j/neo4j-kernel/srcs/neo4j-kernel-1.9.M04-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

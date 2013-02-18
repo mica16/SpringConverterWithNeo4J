@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.example"
+		module="testconverter$sources_javadoc_2.10"
+		revision="1.0-SNAPSHOT"
+		status="integration"
+		publication="20130218154802"
+	/>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="scala-library" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="scala-library" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-aop" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-aop" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-aop" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="aopalliance" name="aopalliance" rev="1.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="aopalliance" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="aopalliance" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-core" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-core" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-core" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-logging" name="commons-logging" rev="1.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-logging" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="commons-logging" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-beans" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-beans" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-beans" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-aspects" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-aspects" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-aspects" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.aspectj" name="aspectjweaver" rev="1.7.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="aspectjweaver" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="aspectjweaver" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-context-support" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-context-support" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-context-support" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-context" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-context" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-context" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-expression" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-expression" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-expression" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework.data" name="spring-data-commons-core" rev="1.4.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-data-commons-core" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-data-commons-core" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-jdbc" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-jdbc" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-jdbc" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-tx" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-tx" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-tx" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-orm" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-orm" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-orm" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-test" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-test" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-test" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-webmvc" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-webmvc" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-webmvc" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework" name="spring-web" rev="3.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-web" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-web" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework.data" name="spring-data-neo4j" rev="2.2.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-data-neo4j" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-data-neo4j" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.aspectj" name="aspectjrt" rev="1.7.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="aspectjrt" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="aspectjrt" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework.data" name="spring-data-commons" rev="1.5.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-data-commons" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-data-commons" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="slf4j-api" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="slf4j-api" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.slf4j" name="jcl-over-slf4j" rev="1.7.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jcl-over-slf4j" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="jcl-over-slf4j" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j-cypher-dsl" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j-cypher-dsl" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="neo4j-cypher-dsl" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.geronimo.specs" name="geronimo-jta_1.1_spec" rev="1.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="geronimo-jta_1.1_spec" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="geronimo-jta_1.1_spec" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.lucene" name="lucene-core" rev="3.5.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="lucene-core" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="lucene-core" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru" rev="1.3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="concurrentlinkedhashmap-lru" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="concurrentlinkedhashmap-lru" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="neo4j" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j-kernel" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j-kernel" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="neo4j-kernel" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j-lucene-index" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j-lucene-index" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="neo4j-lucene-index" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j-graph-algo" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j-graph-algo" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="neo4j-graph-algo" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j-udc" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j-udc" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="neo4j-udc" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j-graph-matching" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j-graph-matching" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="neo4j-graph-matching" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j-cypher" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j-cypher" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="neo4j-cypher" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j-jmx" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j-jmx" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="neo4j-jmx" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="asm" name="asm-all" rev="3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="asm-all" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="asm-all" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.springframework.data" name="spring-data-neo4j-rest" rev="2.1.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="spring-data-neo4j-rest" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="spring-data-neo4j-rest" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.codehaus.jackson" name="jackson-jaxrs" rev="1.9.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jackson-jaxrs" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="jackson-jaxrs" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jackson-core-asl" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="jackson-core-asl" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jackson-mapper-asl" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="jackson-mapper-asl" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.sun.jersey" name="jersey-client" rev="1.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jersey-client" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="jersey-client" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.sun.jersey" name="jersey-core" rev="1.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jersey-core" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="jersey-core" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j-rest-graphdb" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j-rest-graphdb" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="neo4j-rest-graphdb" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="server-api" rev="1.9.M04" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="server-api" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="server-api" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j.3rdparty.javax.ws.rs" name="jsr311-api" rev="1.1.2.r612" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jsr311-api" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="jsr311-api" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-configuration" name="commons-configuration" rev="1.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-configuration" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="commons-configuration" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-collections" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="commons-collections" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-lang" name="commons-lang" rev="2.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-lang" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="commons-lang" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-beanutils" name="commons-beanutils-core" rev="1.8.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-beanutils-core" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="commons-beanutils-core" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-digester" name="commons-digester" rev="1.8.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-digester" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="commons-digester" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-beanutils" name="commons-beanutils" rev="1.8.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-beanutils" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+			<artifact name="commons-beanutils" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+		</dependency>
+		<exclude org="org.scala-lang" module="scala-library" artifact="*" type="jar" ext="*" matcher="exact"/>
+		<exclude org="org.scala-lang" module="scala-compiler" artifact="*" type="jar" ext="*" matcher="exact"/>
+		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.0"/>
+		<override org="org.scala-lang" module="scala-compiler" matcher="exact" rev="2.10.0"/>
+	</dependencies>
+</ivy-module>

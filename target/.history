@@ -1,0 +1,14 @@
+exit
+gen-idea
+exit
+run
+sbt
+reload
+gen-idea
+run
+last compile:run
+run
+reload
+update
+run
+exit

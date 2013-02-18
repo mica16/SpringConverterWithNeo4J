@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.springframework.data:spring-data-neo4j-rest:2.1.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.data/spring-data-neo4j-rest/jars/spring-data-neo4j-rest-2.1.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.data/spring-data-neo4j-rest/docs/spring-data-neo4j-rest-2.1.0.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework.data/spring-data-neo4j-rest/srcs/spring-data-neo4j-rest-2.1.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

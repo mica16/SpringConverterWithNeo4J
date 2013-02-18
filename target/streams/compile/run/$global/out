@@ -1,0 +1,116 @@
+[0m[[0minfo[0m] [0mRunning app.Main [0m
+[0m[[0mdebug[0m] [0mStarting sandboxed run...[0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/Desktop/test-converter/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.sbt/boot/scala-2.10.0/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-core/jars/spring-core-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-aspects/jars/spring-aspects-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.aspectj/aspectjweaver/jars/aspectjweaver-1.7.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-context-support/jars/spring-context-support-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-context/jars/spring-context-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-expression/jars/spring-expression-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework.data/spring-data-commons-core/jars/spring-data-commons-core-1.4.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-jdbc/jars/spring-jdbc-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-tx/jars/spring-tx-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-orm/jars/spring-orm-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-test/jars/spring-test-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-webmvc/jars/spring-webmvc-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework/spring-web/jars/spring-web-3.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework.data/spring-data-neo4j/jars/spring-data-neo4j-2.2.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.aspectj/aspectjrt/jars/aspectjrt-1.7.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework.data/spring-data-commons/jars/spring-data-commons-1.5.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/neo4j-cypher-dsl/jars/neo4j-cypher-dsl-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/neo4j/jars/neo4j-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/neo4j-kernel/jars/neo4j-kernel-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.apache.geronimo.specs/geronimo-jta_1.1_spec/jars/geronimo-jta_1.1_spec-1.1.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/neo4j-lucene-index/jars/neo4j-lucene-index-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-3.5.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/neo4j-graph-algo/jars/neo4j-graph-algo-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/neo4j-udc/jars/neo4j-udc-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/neo4j-graph-matching/jars/neo4j-graph-matching-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/neo4j-cypher/jars/neo4j-cypher-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/jars/concurrentlinkedhashmap-lru-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/neo4j-jmx/jars/neo4j-jmx-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/asm/asm-all/jars/asm-all-3.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.springframework.data/spring-data-neo4j-rest/jars/spring-data-neo4j-rest-2.1.0.RELEASE.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/jars/jackson-jaxrs-1.9.7.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.7.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.7.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/com.sun.jersey/jersey-client/bundles/jersey-client-1.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/com.sun.jersey/jersey-core/bundles/jersey-core-1.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/neo4j-rest-graphdb/jars/neo4j-rest-graphdb-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j/server-api/jars/server-api-1.9.M04.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/org.neo4j.3rdparty.javax.ws.rs/jsr311-api/jars/jsr311-api-1.1.2.r612.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.8.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.8.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.0.0.GA.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main to exit[0m
+[0m[[31merror[0m] [0m(run-main) java.lang.NullPointerException[0m
+java.lang.NullPointerException
+	at app.Main$delayedInit$body.apply(Neo4jSave.scala:17)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:309)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at app.Main$.main(Neo4jSave.scala:10)
+	at app.Main.main(Neo4jSave.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at sbt.Run.invokeMain(Run.scala:68)
+	at sbt.Run.run0(Run.scala:61)
+	at sbt.Run.execute$1(Run.scala:50)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:54)
+	at sbt.TrapExit$.executeMain$1(TrapExit.scala:33)
+	at sbt.TrapExit$$anon$1.run(TrapExit.scala:42)
+[0m[[0mdebug[0m] [0m	Thread run-main exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+java.lang.RuntimeException: Nonzero exit code: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1352)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1352)
+	at scala.Option.foreach(Option.scala:197)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1352)
+	at sbt.Defaults$.toError(Defaults.scala:34)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$27.apply(Defaults.scala:520)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$27.apply(Defaults.scala:518)
+	at sbt.Scoped$$anonfun$hf5$1.apply(Structure.scala:581)
+	at sbt.Scoped$$anonfun$hf5$1.apply(Structure.scala:581)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:49)
+	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$12.apply(Structure.scala:311)
+	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$12.apply(Structure.scala:311)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:41)
+	at sbt.std.Transform$$anon$5.work(System.scala:71)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:232)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:232)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:238)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:232)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:232)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+[0m[[31merror[0m] [0m(compile:[31mrun[0m) Nonzero exit code: 1[0m
