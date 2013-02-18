@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20130218161455"/>
+		date="20130218170559"/>
 	<dependencies>
 		<module organisation="org.neo4j" name="neo4j-rest-graphdb">
 			<revision name="1.9.M04" status="release" pubdate="20130206165620" resolver="Neo4j Cypher DSL Repository" artresolver="Neo4j Cypher DSL Repository" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="42">
@@ -617,12 +617,12 @@
 			</revision>
 		</module>
 		<module organisation="javax.validation" name="validation-api">
-			<revision name="1.0.0.GA" status="release" pubdate="20120112201120" resolver="Spring Release Repository" artresolver="Spring Release Repository" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="51">
+			<revision name="1.0.0.GA" status="release" pubdate="20120112201120" resolver="Spring Release Repository" artresolver="Spring Release Repository" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="51">
 				<license name="Apache License, Version 2.0" url="license.txt"/>
-				<metadata-artifact status="successful" details="" size="4389" time="408" location="/Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml" searched="true" original-local-location="/Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml.original" origin-is-local="false" origin-location="https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom"/>
+				<metadata-artifact status="no" details="" size="2323" time="0" location="/Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml" searched="false" origin-is-local="false" origin-location="https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom"/>
 				<caller organisation="com.example" name="testconverter_2.10" conf="optional, compile, runtime, runtime-internal" rev="1.0.0.GA" rev-constraint-default="1.0.0.GA" rev-constraint-dynamic="1.0.0.GA" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="validation-api" type="jar" ext="jar" status="successful" details="" size="47433" time="823" location="/Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.0.0.GA.jar">
+					<artifact name="validation-api" type="jar" ext="jar" status="no" details="" size="47433" time="0" location="/Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.0.0.GA.jar">
 						<origin-location is-local="false" location="https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar"/>
 					</artifact>
 				</artifacts>

@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/michaelazerhad/Desktop/test-converter/}default-dd11cc...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/}default-cba677...[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: com.example#testconverter_2.10;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
@@ -2602,49 +2602,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve javax.validation#validation-api;1.0.0.GA[0m
 [0m[[0minfo[0m] [0mResolving javax.validation#validation-api;1.0.0.GA ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: javax.validation#validation-api;1.0.0.GA {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for javax.validation#validation-api;1.0.0.GA: tried /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for javax.validation#validation-api;1.0.0.GA: tried /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /Users/michaelazerhad/.ivy2/local/javax.validation/validation-api/1.0.0.GA/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /Users/michaelazerhad/.ivy2/local/javax.validation/validation-api/1.0.0.GA/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for javax.validation#validation-api;1.0.0.GA: res=/Users/michaelazerhad/.ivy2/local/javax.validation/validation-api/1.0.0.GA/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0mTAMU Release Repository: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for javax.validation#validation-api;1.0.0.GA: tried /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://maven.library.tamu.edu/content/repositories/releases/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://maven.library.tamu.edu/content/repositories/releases/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://maven.library.tamu.edu/content/repositories/releases/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://maven.library.tamu.edu/content/repositories/releases/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom[0m
-[0m[[0mdebug[0m] [0m	TAMU Release Repository: resource not reachable for javax/validation#validation-api;1.0.0.GA: res=https://maven.library.tamu.edu/content/repositories/releases/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom[0m
-[0m[[0mdebug[0m] [0m	TAMU Release Repository: no ivy file found for javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0mSpring Release Repository: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for javax.validation#validation-api;1.0.0.GA: tried /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom[0m
-[0m[[0mdebug[0m] [0m	Spring Release Repository: found md file for javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0m		=> https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom (1.0.0.GA)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@25be3a91[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for javax.validation#validation-api;1.0.0.GA: tried /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom ...[0m
-[0m[[0mdebug[0m] [0m	Spring Release Repository: downloading https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom[0m
-[0m[[0mdebug[0m] [0m		to /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	Spring Release Repository: downloading https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /var/folders/c3/71p8qgsd2xn_9f4mn_l0kw0r0000gn/T/ivytmp559104978187633141sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] javax.validation#validation-api;1.0.0.GA!validation-api.pom(pom.original) (408ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /Users/michaelazerhad/.ivy2/local/javax.validation/validation-api/1.0.0.GA/jars/validation-api.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/michaelazerhad/.ivy2/local/javax.validation/validation-api/1.0.0.GA/jars/validation-api.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for javax.validation#validation-api;1.0.0.GA: res=/Users/michaelazerhad/.ivy2/local/javax.validation/validation-api/1.0.0.GA/jars/validation-api.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://maven.library.tamu.edu/content/repositories/releases/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://maven.library.tamu.edu/content/repositories/releases/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://maven.library.tamu.edu/content/repositories/releases/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://maven.library.tamu.edu/content/repositories/releases/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0mdebug[0m] [0m	TAMU Release Repository: resource not reachable for javax/validation#validation-api;1.0.0.GA: res=https://maven.library.tamu.edu/content/repositories/releases/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for javax.validation#validation-api;1.0.0.GA; parsed=javax.validation#validation-api;1.0.0.GA[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for javax.validation#validation-api;1.0.0.GA (resolved by Spring Release Repository): /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.validation#validation-api;1.0.0.GA[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for javax.validation#validation-api;1.0.0.GA (resolved by Spring Release Repository): /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/ivy-1.0.0.GA.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: javax.validation#validation-api;1.0.0.GA[0m
 [0m[[0mdebug[0m] [0m	checking javax.validation#validation-api;1.0.0.GA from Spring Release Repository against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: javax.validation#validation-api;1.0.0.GA from Spring Release Repository[0m
 [0m[[0mdebug[0m] [0m	found javax.validation#validation-api;1.0.0.GA in Spring Release Repository[0m
@@ -12634,7 +12598,7 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in runtime: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in runtime-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in compile-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/com.example/testconverter_2.10/1.0-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/com.example/testconverter_2.10/1.0-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in test-internal: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.0 in test: excluding org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
@@ -12662,16 +12626,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] asm#asm-all;3.1!asm-all.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.springframework.data#spring-data-neo4j-rest;2.1.0.RELEASE!spring-data-neo4j-rest.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.neo4j#neo4j-rest-graphdb;1.9.M04!neo4j-rest-graphdb.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar ...[0m
-[0m[[0mdebug[0m] [0m	Spring Release Repository: downloading https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0mdebug[0m] [0m		to /Users/michaelazerhad/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.0.0.GA.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	Spring Release Repository: downloading https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /var/folders/c3/71p8qgsd2xn_9f4mn_l0kw0r0000gn/T/ivytmp9216951996263621543sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo.springsource.org/libs-release/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.validation#validation-api;1.0.0.GA!validation-api.jar (823ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.validation#validation-api;1.0.0.GA!validation-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.springframework#spring-core;3.2.0.RELEASE!spring-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar[0m
@@ -12710,7 +12665,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-lang#commons-lang;2.4!commons-lang.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-beanutils#commons-beanutils-core;1.8.0!commons-beanutils-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.8.0!commons-beanutils.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4322ms :: artifacts dl 858ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1730ms :: artifacts dl 37ms[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 57[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
@@ -13034,7 +12989,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-digester#commons-digester;1.8.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-beanutils#commons-beanutils;1.8.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT compile produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT compile produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/compile-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 53[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
@@ -13330,7 +13285,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-digester#commons-digester;1.8.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-beanutils#commons-beanutils;1.8.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT runtime produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT runtime produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/runtime-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 53[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
@@ -13626,11 +13581,11 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-digester#commons-digester;1.8.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-beanutils#commons-beanutils;1.8.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT test produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT test produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/test-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT provided produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT provided produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/provided-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT optional produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT optional produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/optional-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 53[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
@@ -13926,7 +13881,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-digester#commons-digester;1.8.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-beanutils#commons-beanutils;1.8.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT compile-internal produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT compile-internal produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/compile-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 53[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
@@ -14222,7 +14177,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-digester#commons-digester;1.8.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-beanutils#commons-beanutils;1.8.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT runtime-internal produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT runtime-internal produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/runtime-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 53[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.0 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.0[0m
@@ -14518,14 +14473,14 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-digester#commons-digester;1.8.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-beanutils#commons-beanutils;1.8.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : javax.validation#validation-api;1.0.0.GA[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT test-internal produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT test-internal produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/test-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT plugin produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT plugin produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/plugin-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT sources produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT sources produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/sources-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT docs produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT docs produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT pom produced in /Users/michaelazerhad/Desktop/test-converter/target/resolution-cache/reports/com.example-testconverter_2.10/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4322ms resolve - 858ms download)[0m
+[0m[[0mdebug[0m] [0m	report for com.example#testconverter_2.10;1.0-SNAPSHOT pom produced in /Users/michaelazerhad/Desktop/SpringConverterWithNeo4J/target/resolution-cache/reports/com.example-testconverter_2.10/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1730ms resolve - 37ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

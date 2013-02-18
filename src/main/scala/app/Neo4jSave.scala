@@ -19,5 +19,5 @@ object Main extends App {
 
   Console.println("We well notice that Schedule is null :( :" + loadedMeeting.schedule)
 
-
+  meetingRepository.deleteAll()
 }
